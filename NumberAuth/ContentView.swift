@@ -6,11 +6,39 @@
 //
 
 import SwiftUI
+import Firebase
+
 
 struct ContentView: View {
+    @AppStorage("log_Status") var status = false
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack{
+            if status{
+                
+                Home()
+//                VStack(spacing: 15){
+//
+//                    // Home View.....
+//                    Text("Logged In Successfully")
+//                        .font(.title)
+//                        .fontWeight(.heavy)
+//                        .foregroundColor(Color.black)
+//
+//                    Button(action: {}, label: {
+//                        Text("LogOut")
+//                            .fontWeight(.heavy)
+//                    })
+//                }
+                
+            }
+            else {
+                NavigationView{
+                        Login()
+                            .navigationBarHidden(true)
+                            .navigationBarBackButtonHidden(true)
+                        }
+            }
+        }
     }
 }
 

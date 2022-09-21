@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371751D528D7A5E400A5D023 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371751D428D7A5E400A5D023 /* Verification.swift */; };
+		371751D728D860BE00A5D023 /* CustomNumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371751D628D860BE00A5D023 /* CustomNumberPad.swift */; };
+		371751D928D87A5500A5D023 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 371751D828D87A5500A5D023 /* GoogleService-Info.plist */; };
 		37C7AAB528D3808D008E1300 /* NumberAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7AAB428D3808D008E1300 /* NumberAuthApp.swift */; };
 		37C7AAB728D3808D008E1300 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7AAB628D3808D008E1300 /* ContentView.swift */; };
 		37C7AAB928D3808E008E1300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C7AAB828D3808E008E1300 /* Assets.xcassets */; };
 		37C7AABC28D3808E008E1300 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C7AABB28D3808E008E1300 /* Preview Assets.xcassets */; };
+		37C7AAC528D4CCDA008E1300 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7AAC428D4CCDA008E1300 /* Login.swift */; };
+		37C7AAC728D4D097008E1300 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7AAC628D4D097008E1300 /* LoginViewModel.swift */; };
+		37C7AACA28D4E4B2008E1300 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7AAC928D4E4B2008E1300 /* Countries.swift */; };
+		37F2AC3528D8A37500A02B6B /* AlartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F2AC3428D8A37400A02B6B /* AlartView.swift */; };
+		37F2AC3728D8F14800A02B6B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F2AC3628D8F14800A02B6B /* Home.swift */; };
+		6C7DF127CB710F4299538C20 /* Pods_NumberAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B2D0F11BA602408FF49E35 /* Pods_NumberAuth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28BB3BEC43B7B2E17FA07E85 /* Pods-NumberAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberAuth.debug.xcconfig"; path = "Target Support Files/Pods-NumberAuth/Pods-NumberAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		371751D428D7A5E400A5D023 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		371751D628D860BE00A5D023 /* CustomNumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNumberPad.swift; sourceTree = "<group>"; };
+		371751D828D87A5500A5D023 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		371751DA28D87AFA00A5D023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		37C7AAB128D3808D008E1300 /* NumberAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C7AAB428D3808D008E1300 /* NumberAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberAuthApp.swift; sourceTree = "<group>"; };
 		37C7AAB628D3808D008E1300 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		37C7AAB828D3808E008E1300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37C7AABB28D3808E008E1300 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37C7AAC428D4CCDA008E1300 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		37C7AAC628D4D097008E1300 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		37C7AAC928D4E4B2008E1300 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		37F2AC3428D8A37400A02B6B /* AlartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlartView.swift; sourceTree = "<group>"; };
+		37F2AC3628D8F14800A02B6B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		90B2D0F11BA602408FF49E35 /* Pods_NumberAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumberAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96C6B5AF8E8529BC6C990F2 /* Pods-NumberAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberAuth.release.xcconfig"; path = "Target Support Files/Pods-NumberAuth/Pods-NumberAuth.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7DF127CB710F4299538C20 /* Pods_NumberAuth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07F9652B8A1ECCFC219E4D25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90B2D0F11BA602408FF49E35 /* Pods_NumberAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		37C7AAA828D3808D008E1300 = {
 			isa = PBXGroup;
 			children = (
+				371751D828D87A5500A5D023 /* GoogleService-Info.plist */,
 				37C7AAB328D3808D008E1300 /* NumberAuth */,
 				37C7AAB228D3808D008E1300 /* Products */,
+				865ACE9F38C1322CEA3BA6B4 /* Pods */,
+				07F9652B8A1ECCFC219E4D25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +84,10 @@
 		37C7AAB328D3808D008E1300 /* NumberAuth */ = {
 			isa = PBXGroup;
 			children = (
+				371751DA28D87AFA00A5D023 /* Info.plist */,
+				37C7AAC828D4E497008E1300 /* Model */,
+				37C7AAC328D4CCC5008E1300 /* View */,
+				37C7AAC228D4CCBA008E1300 /* ViewModel */,
 				37C7AAB428D3808D008E1300 /* NumberAuthApp.swift */,
 				37C7AAB628D3808D008E1300 /* ContentView.swift */,
 				37C7AAB828D3808E008E1300 /* Assets.xcassets */,
@@ -67,6 +104,43 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		37C7AAC228D4CCBA008E1300 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				37C7AAC628D4D097008E1300 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37C7AAC328D4CCC5008E1300 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37C7AAC428D4CCDA008E1300 /* Login.swift */,
+				371751D428D7A5E400A5D023 /* Verification.swift */,
+				371751D628D860BE00A5D023 /* CustomNumberPad.swift */,
+				37F2AC3428D8A37400A02B6B /* AlartView.swift */,
+				37F2AC3628D8F14800A02B6B /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37C7AAC828D4E497008E1300 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37C7AAC928D4E4B2008E1300 /* Countries.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		865ACE9F38C1322CEA3BA6B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28BB3BEC43B7B2E17FA07E85 /* Pods-NumberAuth.debug.xcconfig */,
+				E96C6B5AF8E8529BC6C990F2 /* Pods-NumberAuth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37C7AABF28D3808E008E1300 /* Build configuration list for PBXNativeTarget "NumberAuth" */;
 			buildPhases = (
+				0A5CC94B3EAF44722A3AE32A /* [CP] Check Pods Manifest.lock */,
 				37C7AAAD28D3808D008E1300 /* Sources */,
 				37C7AAAE28D3808D008E1300 /* Frameworks */,
 				37C7AAAF28D3808D008E1300 /* Resources */,
+				F3850B72664205149D4589BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +203,68 @@
 			files = (
 				37C7AABC28D3808E008E1300 /* Preview Assets.xcassets in Resources */,
 				37C7AAB928D3808E008E1300 /* Assets.xcassets in Resources */,
+				371751D928D87A5500A5D023 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A5CC94B3EAF44722A3AE32A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NumberAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3850B72664205149D4589BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NumberAuth/Pods-NumberAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NumberAuth/Pods-NumberAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NumberAuth/Pods-NumberAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37C7AAAD28D3808D008E1300 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371751D528D7A5E400A5D023 /* Verification.swift in Sources */,
+				37F2AC3528D8A37500A02B6B /* AlartView.swift in Sources */,
+				37C7AAC728D4D097008E1300 /* LoginViewModel.swift in Sources */,
+				37C7AAC528D4CCDA008E1300 /* Login.swift in Sources */,
+				37F2AC3728D8F14800A02B6B /* Home.swift in Sources */,
 				37C7AAB728D3808D008E1300 /* ContentView.swift in Sources */,
+				37C7AACA28D4E4B2008E1300 /* Countries.swift in Sources */,
 				37C7AAB528D3808D008E1300 /* NumberAuthApp.swift in Sources */,
+				371751D728D860BE00A5D023 /* CustomNumberPad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +387,7 @@
 		};
 		37C7AAC028D3808E008E1300 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28BB3BEC43B7B2E17FA07E85 /* Pods-NumberAuth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,6 +397,7 @@
 				DEVELOPMENT_TEAM = 37P2V26KZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NumberAuth/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,6 +418,7 @@
 		};
 		37C7AAC128D3808E008E1300 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96C6B5AF8E8529BC6C990F2 /* Pods-NumberAuth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +428,7 @@
 				DEVELOPMENT_TEAM = 37P2V26KZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NumberAuth/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
