@@ -8,12 +8,14 @@
 import SwiftUI
 import Firebase
 
+
 @main
 struct NumberAuthApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentViewGoogle()
+          //  ContentView()
         }
     }
 }
