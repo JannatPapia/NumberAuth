@@ -7,13 +7,26 @@
 
 import SwiftUI
 import Firebase
+import GoogleSignIn
+
 
 @main
 struct NumberAuthApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    //MARK: google sign in
+    @StateObject var viewModel = AuthenticationViewModel()
+    //
+ //   @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
+    // MARK: Google sign in
+    init() {
+      setupAuthentication()
+    }
+    //
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentViewGoogle()
+                .environmentObject(viewModel)
+          //  ContentView()
         }
     }
 }
@@ -21,19 +34,28 @@ struct NumberAuthApp: App {
 
 // intializing Firebase...
 
-class AppDelegate: NSObject,UIApplicationDelegate{
-    
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions
-                     launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        
-        FirebaseApp.configure()
-        return true
-    }
-    
-    // Needed For Firebase Phone Auth....
-    func application(_ application: UIApplication, didReceiveRemoteNotification
-                     userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler:
-    @escaping (UIBackgroundFetchResult) -> Void) {
-        
-    }
+//class AppDelegate: NSObject,UIApplicationDelegate{
+//
+//    func application(_ application: UIApplication, didFinishLaunchingWithOptions
+//                     launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+//
+//        FirebaseApp.configure()
+//        return true
+//    }
+//
+//    // Needed For Firebase Phone Auth....
+//    func application(_ application: UIApplication, didReceiveRemoteNotification
+//                     userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler:
+//    @escaping (UIBackgroundFetchResult) -> Void) {
+//
+//    }
+//}
+
+
+// MARK: Google sign in
+extension NumberAuthApp {
+  private func setupAuthentication() {
+    FirebaseApp.configure()
+  }
 }
+//
